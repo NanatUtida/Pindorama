@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans-Open_Sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+.inter-INTER {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+body {
+    background-color: #e9fcfc;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CABEÇALHO */
+#cabeçalho {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background: #F8F8FF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+#meio {
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabeçalho img {
+    width: 250px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #063643;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 10px;
+    background: none;
+}
+
+.buttons a:hover {
+    background: #6BB7CB66;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* BANNER */
+#BANNER1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #F8F8FF;
+    height: 450px;
+    width: 1180px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#Dogs {
+    position: absolute;
+    
+    width: 700px;
+    height: 250px;
+    
+    bottom: 20px;
+    right: 50px;
+}
+
+#wave {
+    position: absolute;
+
+    width: 275px;
+    height: 275px;
+
+    left: 915px;
+    top: 15px;
+}
+
+#textoBRANCA {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+
+    font-weight: 700;
+    font-size: 30px;
+    color: #063643;
+
+    text-align: left;
+    line-height: 40px;
+}
+
+#bottonBRANCA {
+    
+    position: absolute;
+    left: 70px;
+
+    width: 280px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 20px;
+    background: #0F637A;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#bottonBRANCA a {
+    text-decoration: none;
+    color: white;
+}
+
+#BANNER2 {
+
+}
+
+#CAMPANHA1 {
+    position: relative;
+    width: 1180px;
+    height: 340px;
+}
+
+#VACINACAO {
+    position: relative;
+    background-color: #63B3C9;
+
+    height: 300px;  
+    width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    left: 40px;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+#ESQUERDA {
+    position: absolute;
+    top: 135px;
+}
+
+#DIREITA {
+    position: absolute;
+    top: 135px;
+    left: 1140px;
+}
+
+#Pagina1{
+    position: absolute;
+    bottom: 10px;
+    left: 540px;
+}
+
+#gato {
+    position: absolute;
+    width: 120px;
+    height: 195px;
+    top: 100px;
+    left: 863px;
+}
+#PATAS {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    top: 30px;
+    left: 30px;
+}
+
+#titleVACINACAO {
+    position: absolute;
+    left: 502px;
+    top: 30px;
+
+    width: 378;
+    height: 42;
+
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+    color: #063643;
+}
+
+#textVACINACAO {
+    position: absolute;
+    top: 78px;
+    left: 510px;
+
+    width: 311;
+    height: 30;
+
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+    color: #0F637A;
+}
+
+#bottonVACINACAO {
+    position: absolute;
+    top: 159px;
+    left: 510px;
+
+    width: 280px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    padding: 15px 20px;
+    background: white;
+    border-radius: 8px;
+    
+    border-radius: 4px;
+
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#bottonVACINACAO a {
+    text-decoration: none;
+    color: #063643;
+}
+
+#QUEM_SOMOS {
+    position: relative;
+    background-color: #89C5D5;
+    background-image: url(fundo-animais-icons\ 2.png);
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#logo2 {
+    position: absolute;
+    left: 150px;
+}
+
+#titleQUEM {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#textQUEM {
+    position: absolute;
+    left: 600px;
+    top: 90px;
+
+    width: 670px;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2%;
+}
+
+#servico1 {
+    position: relative;
+
+    background-color: #63B3C9;
+    background-image: url(fundo-animais-icons\ 3.png);
+
+    width: 100%;
+    height: 400px;
+}
+
+#gatinho {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+
+    width: 320px;
+    height: 260px;
+}
+#titleSERVICOS {
+    position: absolute;
+    left: 160px;
+    top: 40px;
+
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+}
+#textSERVICO1 {
+    position: absolute;
+    left: 600px;
+    top: 150px;
+
+    width: 670px;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2%;
+}
+
+#servico2 {
+    position: relative;
+
+    background-color: #89C5D5;
+    background-image: url(fundo-animais-icons\ 2.png);
+
+    width: 100%;
+    height: 325px;
+
+}
+
+#golden {
+    position: absolute;
+    left: 850px;
+    top: 40px;
+
+    width: 320px;
+    height: 260px;
+}
+
+#textSERVICO2 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+
+    width: 670px;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
