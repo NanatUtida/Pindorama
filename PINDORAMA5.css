@@ -628,7 +628,76 @@ main {
     padding: 5px;
 }
 
+/* AVALIAÇÕES */
+#section_avaliacoes{
+    padding: 23px 40px 200px 40px;
+
+}
+
+#texto_avaliacoes{
+    padding: 46px 40px;
+
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    color: #063643;
+}
+
+#imagens_avaliacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contador_carrossel{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#elementos_carrossel{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    right: 18%;
+    margin-top: 100px;
+}
+
+#botao_prev-avaliacao{
+    width: 40px;
+    height: 30px;
+}
+
+#botao_prev-avaliacao:hover{
+    background-image: url('Imagens/Property\ 1=prev-hover.png');
+}
+
+#botao_prev-avaliacao:active{
+    background-image: url('Imagens/Property\ 1=prev-click.png');
+}
+
+#botao_next-avaliacao{
+    width: 40px;
+    height: 30px;
+}
+
+#botao_next-avaliacao:hover{
+    background-image: url('Imagens/Property\ 1=next-hover.png');
+}
+
+#botao_next-avaliacao:active{
+    background-image: url('Imagens/Property\ 1=next-click.png');
+}
+
+
+
 /* RODAPÉ */
+#footer{
+    background-color: #F8F8FF;
+}
+
 #logo_rodape{
     width: 200px;
     height: 200px;
@@ -688,7 +757,7 @@ main {
     top: 11px;
 
     font-family: "Poppins";
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 12px;
     line-height: 100%;
     text-transform: uppercase;
@@ -697,3 +766,4 @@ main {
     align-items: center; /* Centraliza na vertical */
     
 }
+
