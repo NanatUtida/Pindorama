@@ -691,7 +691,41 @@ main {
     background-image: url('Imagens/Property\ 1=next-click.png');
 }
 
+/* FORMULÁRIO DE CONTATO */
+input, textarea{
+    border-radius: 8px;
+    border: 1px solid #063643;
+}
 
+#formulario_contato{
+    background-color: #F8F8FF;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#botao_enviar {
+    width: 144px; /* Defina o tamanho do botão */
+    height: 55px; /* Defina a altura do botão */
+    background-size: cover; /* Garante que a imagem cubra todo o botão */
+    border: none;
+    cursor: pointer; /* Mostra o cursor de mão ao passar por cima */
+    transition: background-image 0.3s ease; /* Suaviza a transição da imagem */
+}
+
+#botao_enviar:hover {
+    background-image: url('Imagens/button_hover_enviar.png');
+}
+
+.elemento_formulario{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 /* RODAPÉ */
 #footer{
