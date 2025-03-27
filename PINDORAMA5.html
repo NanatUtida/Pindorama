@@ -21,8 +21,8 @@
                 <a href="#BANNER1">Início</a>
                 <a href="#servico1">Serviços</a>
                 <a href="#QUEM_SOMOS">Sobre Nós</a>
+                <a href="#footer">Contato</a>
                 <!-- ADICIONAR -->
-                <a href="#">Contato</a>
             </nav>
         </div>
     </header>
@@ -107,17 +107,19 @@
 
         <!-- SOBRE NÓS -->
         <section id="QUEM_SOMOS">
+            
             <img src="Imagens/logo vertical.png" alt="Logo_Vertical" id="logo2">
             <h1 id="titleQUEM">Quem somos?</h1>
-            <h2 id="textQUEM">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, 
-                com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento. 
+            <h2 id="textQUEM">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet,
+                com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.
                 Cuidamos do seu animalzinho como se fosse nosso!
             </h2>
+            
         </section>
 
         <!-- SERVIÇOS -->
         <section id="servico1">
-            <img src="Imagens/gatinho.png" alt="Médica e Gato" id="gatinho">
+            <img id="gatinho" src="Imagens/gatinho.png" alt="Médica e Gato" >
             <h1 id="titleSERVICOS">Nossos serviços</h1>
             <h2 id="textSERVICO1">Na nossa clínica veterinária, cada consulta é realizada com 
                 dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. 
@@ -165,7 +167,7 @@
 
         <!-- Avaliações -->
          <section id="section_avaliacoes">
-            <h1 id="texto_avaliacoes">Avaliações (9)</h1>
+            <h1 id="texto_avaliacoes">Avaliações (34)</h1>
             <div id="imagens_avaliacoes">
                 <img src="Imagens/avaliacao_carlos.png" alt="Avaliação Carlos">
                 <img src="Imagens/separador.png" alt="">
@@ -183,49 +185,56 @@
          </section>
 
          <!-- ENTRE EM CONTATO -->
-          <section>
-            <p id="texto_avaliacoes">Entre em contato</p>
+          <section id="secao_contato">
+            <p id="title_contato">Entre em contato</p>
             <div id="formulario_contato">
-                <div>
-                    <h2>Localização</h2>
-                    <p>Rua - Fulana de tal, 9999</p>
-                    <p>CEP 99999-999</p>
-                    <p>Pindorama/SP</p>
+                <div id="div_contato">
+                    <h2 id="texto_localizacao">Localização</h2>
+                    
+                    <div id="subtexto_localizacao">
+                        <p>Rua - Fulana de tal, 9999</p>
+                        <p>CEP 99999-999</p>
+                        <p>Pindorama/SP</p>
+                    </div>
 
-                    <img src="Imagens/mapa.png" alt="mapa">
+                    <div>
+                        <img id="imagem_mapa" src="Imagens/mapa.png" alt="mapa">
+                    </div>
 
-                    <p>
+                    <div id="numberwhats">
                         <img src="Imagens/icon-whatsapp.png" alt="">
-                        (99)-99999999
-                    </p>
-                    <p>
+                        <p>(99)-99999999</p>
+                    </div>
+                    <div id="instagram">
                         <img src="Imagens/icon-instagram.png" alt="">
-                        @PindoramaClinica
-                    </p>
-                    <p>
+                        <p>@PindoramaClinica</p>
+                    </div>
+                    <div id="facebook">
                         <img src="Imagens/icon-face.png" alt="">
-                        PindoramaClinica
-                    </p>
+                        <p>PindoramaClinica</p>
+                    </div>
                     
 
                 </div>
 
-                <div>
-                    <form action="processar.php" method="POST">
+                <div id="div_formulario">
+                    <form action="" method="POST">
 
-                        <label class="elemento_formulario" for="nome">Nome</label>
-                        <input class="elemento_formulario" type="text" id="nome" name="nome">
-
-                        <label class="elemento_formulario" for="sobrenome">Sobrenome</label>
-                        <input class="elemento_formulario" type="text" id="sobrenome" name="sobrenome">
-
-                        <label class="elemento_formulario" for="email">E-mail</label>
-                        <input class="elemento_formulario" type="text" id="email" name="email">
+                        <label class="texto_formulario" for="nome">Nome</label>
+                        <input class="texto_formulario" type="text" id="nome" name="nome">
                         
-                        <label class="elemento_formulario" for="mensagem">Mensagem</label>
-                        <textarea class="elemento_formulario" name="mensagem" id="mensagem"></textarea>
+                        <label class="texto_formulario" for="sobrenome">Sobrenome</label>
+                        <input class="texto_formulario" type="text" id="sobrenome" name="sobrenome">
 
-                        <img id="botao_enviar" src="Imagens/button_enviar.png" alt="botao_enviar">
+                        <label class="texto_formulario" for="email">E-mail</label>
+                        <input class="texto_formulario" type="text" id="email" name="email">
+                        
+                        <label class="texto_formulario" for="mensagem">Mensagem</label>
+                        <textarea class="texto_formulario" name="mensagem" id="mensagem"></textarea>
+
+                        <div id="botao_enviar">
+                            <p id="texto_enviar">Enviar</p>
+                        </div>
 
                     </form>
                 </div>

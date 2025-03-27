@@ -29,7 +29,8 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 body {
     background-color: #e9fcfc;
     font-family: 'Poppins', sans-serif;
@@ -40,7 +41,7 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1920px;
     height: 140px;
     background: #F8F8FF;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -174,22 +175,7 @@ main {
     height: 340px;
 }
 
-.ESQUERDA {
-    position: absolute;
-    top: 135px;
-}
 
-.DIREITA {
-    position: absolute;
-    top: 135px;
-    left: 1140px;
-}
-
-.Pagina1{
-    position: absolute;
-    bottom: 10px;
-    left: 540px;
-}
 #VACINACAO {
     position: relative;
     background-color: #63B3C9;
@@ -473,19 +459,20 @@ main {
     position: relative;
     background-color: #89C5D5;
     background-image: url(Imagens/fundo-animais-icons\ 2.png);
-    width: 100%;
+    width: 1920px;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #logo2 {
     position: absolute;
-    left: 150px;
+    left: 450px;
 }
 
 #titleQUEM {
+    color: #063643;
     position: absolute;
-    left: 600px;
+    left: 900px;
     top: 30px;
 
     font-family: "Poppins";
@@ -494,11 +481,12 @@ main {
 }
 
 #textQUEM {
+    color: #063643;
     position: absolute;
-    left: 600px;
-    top: 90px;
+    left: 900px;
+    top: 110px;
 
-    width: 670px;
+    width: 750px;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -513,34 +501,36 @@ main {
     background-color: #63B3C9;
     background-image: url(Imagens/fundo-animais-icons\ 3.png);
 
-    width: 100%;
-    height: 400px;
+    width: 1920px;
+    height: 420px;
 }
 
 #gatinho {
     position: absolute;
-    left: 150px;
+    left: 450px;
     top: 100px;
 
     width: 320px;
     height: 260px;
 }
 #titleSERVICOS {
+    color: #063643;
     position: absolute;
-    left: 160px;
-    top: 40px;
+    left: 450px;
+    top: 50px;
 
     font-family: "Inter";
     font-weight: 700;
     font-size: 24px;
-    
 }
+
 #textSERVICO1 {
+    color: #063643;
     position: absolute;
-    left: 600px;
+    left: 900px;
     top: 150px;
 
-    width: 600px;
+    width: 660px;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -563,7 +553,7 @@ main {
 
 #golden {
     position: absolute;
-    left: 850px;
+    left: 1250px;
     top: 40px;
 
     width: 320px;
@@ -571,11 +561,12 @@ main {
 }
 
 #textSERVICO2 {
+    color: #063643;
     position: absolute;
-    left: 150px;
+    left: 450px;
     top: 100px;
 
-    width: 600px;
+    width: 650px;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -590,6 +581,8 @@ main {
     border-radius: 8px;
     margin-top: 50px;
     padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 #nossos_profissionais{
@@ -692,39 +685,160 @@ main {
 }
 
 /* FORMULÁRIO DE CONTATO */
+#secao_contato{
+    width: 1020px;
+    height: 745px;
+    margin-bottom: 50px;
+}
+
+#title_contato{
+    color: #063643;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+#formulario_contato{
+    margin-top: 25px;
+    background-color: #F8F8FF;
+    display: flex;
+    flex-direction: row;
+    width: 1020px;
+    height: 692px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Parte esqueda contato */
+#div_contato{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 420px;
+    height: 692px;
+    border-radius: 8px 0 0 8px;
+}
+
+#texto_localizacao{
+    width: 117px;
+    height: 24px;
+    position: relative;
+    top: 51px;
+    left: 21px;
+
+    color: #063643;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#subtexto_localizacao{
+    width: 280px;
+    height: 78px;
+    position: relative;
+    top: 115px;
+    left: 20px;
+
+    color: #063643;
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#imagem_mapa{
+    position: relative;
+    top: 150px;
+    left: 35px;
+    width: 350px;
+    height: 244.16px;
+    border-radius: 4px;
+    border: 1px solid rgba(15, 99, 122, 0.4);
+}
+
+#numberwhats{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    width: 168px;
+    height: 36px;
+    top: 185px;
+    left: 20px;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    width: 212px;
+    height: 36px;
+    top: 200px;
+    left: 20px;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    width: 195px;
+    height: 36px;
+    top: 215px;
+    left: 20px;
+}
+
+/* Parte direita contato */
+#div_formulario{
+    border-radius: 0 8px 8px 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 692px;
+    height: 692px;
+
+}
+
 input, textarea{
     border-radius: 8px;
     border: 1px solid #063643;
 }
 
-#formulario_contato{
-    background-color: #F8F8FF;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    margin-bottom: 50px;
-    padding: 50px;
+.texto_formulario{
+    color: #063643;
+    position: relative;
+    left: 40px;
+    top: 51px;
+    display: block;
+    width: 120px;
+    height: 24px;
 }
 
 #botao_enviar {
+    background-color: #0F637A;
     width: 144px; /* Defina o tamanho do botão */
     height: 55px; /* Defina a altura do botão */
-    background-size: cover; /* Garante que a imagem cubra todo o botão */
+
+    position: relative;
+    top: 420px;
+    left: 40px;
+    border-radius: 8px;
+    padding: 8px 4px;
     border: none;
     cursor: pointer; /* Mostra o cursor de mão ao passar por cima */
-    transition: background-image 0.3s ease; /* Suaviza a transição da imagem */
+}
+
+#texto_enviar{
+    color: #F8F8FF;
+    position: relative;
+    top: 3px;
+    left: 34px;
+    width: 75px;
+    height: 30px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #botao_enviar:hover {
-    background-image: url('Imagens/button_hover_enviar.png');
-}
-
-.elemento_formulario{
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+    background-color: #063643;
 }
 
 /* RODAPÉ */
