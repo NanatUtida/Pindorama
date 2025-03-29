@@ -220,17 +220,25 @@
                 <div id="div_formulario">
                     <form action="" method="POST">
 
-                        <label class="texto_formulario" for="nome">Nome</label>
-                        <input class="texto_formulario" type="text" id="nome" name="nome">
-                        
-                        <label class="texto_formulario" for="sobrenome">Sobrenome</label>
-                        <input class="texto_formulario" type="text" id="sobrenome" name="sobrenome">
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
 
-                        <label class="texto_formulario" for="email">E-mail</label>
-                        <input class="texto_formulario" type="text" id="email" name="email">
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome">
+                        </div>
+
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="email">E-mail</label>
+                            <input type="text" id="email" name="email">
+                        </div>
                         
-                        <label class="texto_formulario" for="mensagem">Mensagem</label>
-                        <textarea class="texto_formulario" name="mensagem" id="mensagem"></textarea>
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="mensagem">Mensagem</label>
+                            <input name="mensagem" id="mensagem"></input>
+                        </div>
 
                         <div id="botao_enviar">
                             <p id="texto_enviar">Enviar</p>

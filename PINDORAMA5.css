@@ -715,6 +715,7 @@ main {
     width: 420px;
     height: 692px;
     border-radius: 8px 0 0 8px;
+    padding-right: 100px;
 }
 
 #texto_localizacao{
@@ -793,22 +794,58 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.15);
     width: 692px;
     height: 692px;
-
 }
 
-input, textarea{
-    border-radius: 8px;
-    border: 1px solid #063643;
+.campo_formulario{
+    width: 520px;
+    height: 90px;
+
+    position: relative;
+    top: 25px;
+    left: 40px;
 }
 
 .texto_formulario{
     color: #063643;
-    position: relative;
-    left: 40px;
-    top: 51px;
+    font-weight: 700;
+    font-size: 20px;
     display: block;
     width: 120px;
     height: 24px;
+    margin-bottom: 10px;
+    margin-top: 28px;
+}
+
+#nome{
+    border-radius: 8px;
+    border: 1px solid rgba(6, 54, 67, 0.4);
+    width: 520px;
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#sobrenome{
+    border-radius: 8px;
+    border: 1px solid rgba(6, 54, 67, 0.4);
+    width: 520px;
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#email{
+    border-radius: 8px;
+    border: 1px solid rgba(6, 54, 67, 0.4);
+    width: 520px;
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#mensagem{
+    border-radius: 8px;
+    border: 1px solid rgba(6, 54, 67, 0.4);
+    width: 520px;
+    height: 120px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 #botao_enviar {
@@ -817,7 +854,7 @@ input, textarea{
     height: 55px; /* Defina a altura do botão */
 
     position: relative;
-    top: 420px;
+    top: 120px;
     left: 40px;
     border-radius: 8px;
     padding: 8px 4px;
