@@ -39,7 +39,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 140px;
     background: #F8F8FF;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -50,14 +50,14 @@ body {
 }
 /* DIV COM BOTÕES E LOGO NO CABEÇALHO */
 #meio {
-    width: 80%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 /* LOGO */
 #cabeçalho img {
-    width: 23%;
+    width: 25%;
     height: auto;
 }
 /* BOTOES DO CABECALHO */
@@ -73,7 +73,7 @@ body {
     background: none;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 100%;
+    font-size: 120%;
     line-height: 100%;
     letter-spacing: 0%;
 }
@@ -97,13 +97,13 @@ main {
     position: relative;
     background-color: #F8F8FF;
     height: 26vw;
-    width: 80%;
+    width: 60%;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 4%;
 }
 /* FIGURA DE CHACHORROS DO BANNER 1 */
 #Dogs {
@@ -166,11 +166,12 @@ main {
 #bottonBRANCA a {
     text-decoration: none;
     color: white;
+    font-size: 70%;
 }
 /* BANNER 2 E CARROSSEL */
 #BANNER2 {
     position: relative;
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 /* Contêiner do carrossel */
@@ -532,7 +533,7 @@ main {
 /* LOGO DA QUEM SOMOS */
 #logo2 {
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 /* TITULO DA QUEM SOMOS */
 #titleQUEM {
@@ -547,12 +548,13 @@ main {
 }
 /* TEXTO DA QUEM SOMOS */
 #textQUEM {
+    margin-top: 20px;
     position: absolute;
 
     left: 45%;
     top: 25%;
 
-    width: 43%;
+    width: 31%;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -573,8 +575,9 @@ main {
 /* IMAGEM DE GATO DE NOSSOS SERVICOS PARTE 1 */
 #gatinho {
     position: absolute;
+    margin-top: 20px;
 
-    left: 10%;
+    left: 20%;
     top: 25%;
 
     width: auto;
@@ -583,7 +586,7 @@ main {
 /* TITULO DE NOSSOS SERVICOS PARTE 1 */
 #titleSERVICOS {
     position: absolute;
-    left: 13%;
+    left: 20%;
     top: 10%;
 
     font-family: "Inter";
@@ -597,7 +600,7 @@ main {
     left: 45%;
     top: 25%;
 
-    width: 40%;
+    width: 28%;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -630,10 +633,10 @@ main {
 #textSERVICO2 {
     position: absolute;
     
-    left: 10%;
-    top: 20%;
+    left: 20%;
+    top: 30%;
 
-    width: 40%;
+    width: 28%;
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -652,15 +655,17 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     height: 30%;
-    width: 80%;
+    width: 60%;
+    margin-bottom: 50px;
 }
 #nossos_profissionais{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 /* TITULO DE NOSSOS PROFISSIONAIS */
 #titulo_profissionais{
-    position: absolute;
+    position: relative;
     color: #063643;
     width: 500px;
     height: 36px;
@@ -668,7 +673,6 @@ main {
     top: 8%;
     left: 8%;
 
-    padding-bottom: 70px;
 
     font-family: "poppins";
     font-weight: 700;
@@ -880,36 +884,10 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FORMULÁRIO DE CONTATO + TITULO */
 #secao_contato{
     position: relative;
-    width: 75%;
+    width: 53.125%;
     margin-bottom: 50px;
 }
 /* TITULO DO FORMULÁRIO DE CONTATO */
@@ -1097,86 +1075,87 @@ main {
 #botao_enviar:hover {
     background-color: #063643;
 }
+
+
 /* RODAPÉ */
+/* Estilos gerais do rodapé */
+/* Estilos gerais do rodapé */
 #footer {
     background-color: #F8F8FF;
     width: 100%;
-    height: 200px;
-    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo */
 }
-/* DIV COM ELEMENTOS DO RODAPE */
+
+/* Alinhamento e centralização dos elementos dentro do rodapé */
+#div_rodape {
+    display: flex; /* Exibe os elementos lado a lado */
+    justify-content: center; /* Centraliza os elementos no meio da tela */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 10px; /* Espaçamento entre os elementos */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    max-width: 1100px; /* Define uma largura máxima para manter o conteúdo centralizado */
+    width: 100%; /* Ocupa a largura total até o limite da max-width */
+}
+
 /* LOGO DO RODAPÉ */
 #logo_rodape {
-    position: absolute;
-    width: auto;
-    height: 80%;
-    left: 3%;
-    top: 5%;
-}
-/* NOSSOS SERVICOS DO RODAPÉ */
-#rodape_servicos {
-    position: absolute;
-    width: 30%;
+    width: 120px; /* Tamanho fixo da logo */
     height: auto;
-    left: 25%;
-    top: 15%;
 }
-/* INSTITUCIONAL DO RODAPÉ */
-#rodape_institucional {
-    position: absolute;
-    width: 25%;
-    height: auto;
-    right: 26%;
-    top: 15%;
-}
-/* CONTATOS DO RODAPÉ */
+
+/* SEÇÕES DO RODAPÉ */
+#rodape_servicos,
+#rodape_institucional,
 #rodape_contatos {
-    position: absolute;
-    width: 20%;
-    height: auto;
-    right: 3%;
-    top: 15%;
+    flex: 1; /* Distribui o espaço proporcionalmente */
+    min-width: 200px; /* Evita que os blocos fiquem muito estreitos */
+    text-align: center; /* Centraliza o texto dentro das seções */
 }
-/* TITULO DOS ELEMENTOS DO RODAPE */
+
+/* TITULO DOS ELEMENTOS DO RODAPÉ */
 .titulo_info {
     color: #063643;
-    font-style: bold;
-    font-family: "poppins";
-    font-weight: 700;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
     font-size: 1em;
     text-transform: uppercase;
     line-height: 200%;
+    margin-bottom: 10px;
 }
-/* ELEMENTOS DO RODAPE */
+
+/* ELEMENTOS DO RODAPÉ */
 .info_rodape {
-    font-family: "poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 0.9em;
     text-transform: uppercase;
     line-height: 200%;
 }
-/* RODAPE DO RODAPE */
+
+/* Rodapé final */
 #rodape_final {
-    position:relative;
     background-color: #063643;
     width: 100%;
     height: 40px;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* TEXTO DO RODAPE DO RODAPE */
+
+/* Texto do rodapé final */
 #texto_direitos {
     color: #daedff;
-    height: 18px;
-    top: 11px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 12px;
-    line-height: 100%;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
+
+
+
+
+
