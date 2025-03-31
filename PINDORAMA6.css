@@ -727,12 +727,20 @@ main {
 .caixa1 {
     background-color: pink;
 }
+
+.caixa2{
+    background-color: greenyellow;
+}
+
+.caixa3{
+    background-color: #0056b3;
+}
 .cliente {
     position: relative;
     width: 65%;
 }
 .foto {
-    position: absolute;
+
 }
 .avaliacao {
     position: relative;
@@ -795,9 +803,7 @@ main {
     width: 100%; /* Largura da imagem */
     height: auto; /* Altura da imagem */
 }
-.foto {
-    margin-left: 10%;
-}
+
 .cliente1 {
 
     width: 65%;
