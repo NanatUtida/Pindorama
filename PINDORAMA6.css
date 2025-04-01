@@ -709,62 +709,6 @@ main {
     color: #063643;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-.cavalo {
-    position: relative;
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    background-color: yellow;
-}
-.caixa1 {
-    background-color: pink;
-}
-
-.caixa2{
-    background-color: greenyellow;
-}
-
-.caixa3{
-    background-color: #0056b3;
-}
-.cliente {
-    position: relative;
-    width: 65%;
-}
-.foto {
-
-}
-.avaliacao {
-    position: relative;
-}
-.FIVESTAR {
-
-}
-.nome {
-
-}
-.texto {
-
-}
-
-
-
-
-
-
-
-
-
-
-
 /* FUNDO DAS AVALIACOES */
 #section_avaliacoes {
     position: relative;
@@ -772,17 +716,15 @@ main {
     background-color: #E2F5FA;
     margin-top: 7%;
 }
-
 #texto_avaliacoes {
     margin-bottom: 3%;
-    margin-left: 15%;
+    margin-left: 9%;
 }
 /* FUNDO DO CARROSSEL */
 .carrossel {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-color: yellow;
+    height: 500px;
     overflow: hidden;
 }
 /* PRIMEIRO CAVALO DO CARROSSEL */
@@ -791,38 +733,69 @@ main {
     transition: transform 0.5s ease-in-out;
     width: 100%;
 }
-.cavalo {
-    position: relative;
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    padding: 2%;
+    width: 100%;
+    margin-left: 10%;
+}
+.cliente {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+.foto {
+    width: 8%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    width: 90%;
+    padding-top: 1%;
+    align-self: center;
+}
+.FIVESTAR {
+    width: 12%;
+    height: auto;
+}
+.nome {
+    margin-top: 1%;
+    font-size: 120%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 100%;
+}
+.texto {
+    margin-top: 1%;
+    line-height: 150%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 110%;
+    width: 75%;
+    margin-bottom: 1%;
+}
+.separador {
     width: 80%;
     height: auto;
-    box-sizing: border-box;
-}
-.avaliacao1 {
-    display: flex; /* Organiza a imagem e o texto lado a lado */
-    gap: 30%; /* Espaçamento entre a imagem e o texto */
-    width: 100%; /* Largura da imagem */
-    height: auto; /* Altura da imagem */
-}
-
-.cliente1 {
-
-    width: 65%;
-    left: 20%;
+    margin: 1% 0;
 }
 .imagem {
     display: none;
     position: absolute;
 }
-
 .imagem img {
     object-fit: cover;
 }
-  
-
-
-
-
-  .controle-inferior {
+.controle-inferior {
     position: absolute;
     bottom: 0;
     right: 10px;
@@ -830,13 +803,10 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #ffffff;
     padding: 5px 10px;
     border-top: 1px solid #ddd;
-  }
-  
-  .seta {
-    background-color: #007bff;
+}
+.seta {
     border: none;
     color: white;
     padding: 6px 12px;
@@ -844,52 +814,35 @@ main {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
-  .seta:hover {
-    background-color: #0056b3;
-  }
-  
-  .seta.oculta {
+    background-color: #E2F5FA;
+}
+.seta.oculta {
     display: none;
-  }
-  
-  #numero-pagina {
+}
+#numero-pagina {
     font-size: 16px;
     font-weight: bold;
-  }
-
-
-
-
+}
 #botao_prev-avaliacao{
     width: 40px;
     height: 30px;
 }
-
 #botao_prev-avaliacao:hover{
     background-image: url('Imagens/Property\ 1=prev-hover.png');
 }
-
 #botao_prev-avaliacao:active{
     background-image: url('Imagens/Property\ 1=prev-click.png');
 }
-
 #botao_next-avaliacao{
     width: 40px;
     height: 30px;
 }
-
 #botao_next-avaliacao:hover{
     background-image: url('Imagens/Property\ 1=next-hover.png');
 }
-
 #botao_next-avaliacao:active{
     background-image: url('Imagens/Property\ 1=next-click.png');
 }
-
-
-
 /* FORMULÁRIO DE CONTATO + TITULO */
 #secao_contato{
     position: relative;
