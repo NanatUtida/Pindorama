@@ -1,0 +1,123 @@
+/* QUEM SOMOS */
+#QUEM_SOMOS {
+    position: relative;
+    background-color: #89C5D5;
+    background-image: url(Imagens/fundo-animais-icons\ 2.png);
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+/* LOGO DA QUEM SOMOS */
+#logo2 {
+    position: absolute;
+    left: 20%;
+}
+/* TITULO DA QUEM SOMOS */
+#titleQUEM {
+    position: absolute;
+
+    left: 45%;
+    top: 10%;
+
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1.5em;
+}
+/* TEXTO DA QUEM SOMOS */
+#textQUEM {
+    margin-top: 20px;
+    position: absolute;
+
+    left: 45%;
+    top: 25%;
+
+    width: 31%;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    letter-spacing: 2%;
+}
+/* NOSSOS SERVICOS PARTE 1 */
+#servico1 {
+    position: relative;
+
+    background-color: #63B3C9;
+    background-image: url(Imagens/fundo-animais-icons\ 3.png);
+
+    width: 100%;
+    height: 400px;
+}
+/* IMAGEM DE GATO DE NOSSOS SERVICOS PARTE 1 */
+#gatinho {
+    position: absolute;
+    margin-top: 20px;
+
+    left: 20%;
+    top: 25%;
+
+    width: auto;
+    height: 54%;
+}
+/* TITULO DE NOSSOS SERVICOS PARTE 1 */
+#titleSERVICOS {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+}
+/* TEXTO DE NOSSOS SERVICOS PARTE 1 */
+#textSERVICO1 {
+    position: absolute;
+
+    left: 45%;
+    top: 25%;
+
+    width: 28%;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    letter-spacing: 2%;
+}
+/* NOSSOS SERVICOS PARTE 2 */
+#servico2 {
+    position: relative;
+
+    background-color: #89C5D5;
+    background-image: url(Imagens/fundo-animais-icons\ 2.png);
+
+    width: 100%;
+    height: 325px;
+
+}
+/* IMAGEM DE CACHORRO DE NOSSOS SERVICOS PARTE 2 */
+#golden {
+    position: absolute;
+
+    left: 55%;
+    top: 15%;
+
+    width: auto;
+    height: 70%;
+}
+/* TEXTO DE NOSSOS SERVICOS PARTE 2 */
+#textSERVICO2 {
+    position: absolute;
+    
+    left: 20%;
+    top: 30%;
+
+    width: 28%;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    letter-spacing: 2%;
+}
