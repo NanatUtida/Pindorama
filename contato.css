@@ -189,3 +189,6 @@
 #botao_enviar:hover {
     background-color: #063643;
 }
+#logos_RESPON {
+    display: none;
+}

@@ -13,6 +13,8 @@
     border-radius: 8px;
     padding: 20px;
     text-align: center;
+    margin-top: 160px;
+    overflow: hidden;
 }
 /* FIGURA DE CHACHORROS DO BANNER 1 */
 #Dogs {

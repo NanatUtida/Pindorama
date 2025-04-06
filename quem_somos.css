@@ -7,6 +7,9 @@
     height: 300px;
     margin-top: 20px;
 }
+#QUEM_SOMOS_RESPON {
+    display: none;
+}
 /* LOGO DA QUEM SOMOS */
 #logo2 {
     position: absolute;
@@ -120,4 +123,7 @@
     font-size: 1.1em;
     line-height: 160%;
     letter-spacing: 2%;
+}
+#servico_RESPON {
+    display: none;
 }

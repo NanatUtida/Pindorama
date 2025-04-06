@@ -1,7 +1,7 @@
 /* CABEÇALHO */
 /* FUNDO BRANCO DO CABEÇALHO */
 #cabeçalho {
-    /* position: fixed; */
+    position: fixed;
     margin-bottom: 20px;
     top: 0;
     left: 0;
