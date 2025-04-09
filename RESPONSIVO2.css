@@ -1,5 +1,5 @@
 /* Tablet And Smartphone (768px e abaixo) */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     /* Menu Hamburger - Escondido em desktop */
     .menu-hamburger {
         display: flex;
@@ -43,8 +43,9 @@
         position: relative;
     }
     #cabeçalho {
+        width: 100%;
         position: relative;
-        height: 15%;
+        /* height: 15%; */
         margin-top: 30px;
         height: auto;
         padding: 10px 0;
@@ -52,7 +53,7 @@
     /* Modificar a logo para versão mobile */
     #cabeçalho img {
         content: url("Imagens/logo_mobile.png");        
-        width: 15%;
+        width: 30%;
         height: auto;
         margin: 0 auto;
         display: block;
@@ -66,6 +67,7 @@
     }
     /* BANNER 1 */
     #BANNER1 {
+        width: 100%;
         height: 40vw;
         background-color: transparent;
         border: none;
@@ -76,7 +78,7 @@
     #BANNER1::before {
         content: '';
         position: absolute;
-        width: 100%;
+        width: 90%;
         height: 120%;
         background: linear-gradient(104.5deg, rgba(195, 236, 248, 0.2) 4.89%, rgba(15, 99, 122, 0.2) 97.81%);
         border-radius: 50%;
@@ -114,6 +116,7 @@
     /* QUEM SOMOS */
     #QUEM_SOMOS {
         height: 350px;
+        width: 100%;
         text-align: center;
     } 
     #logo2 {
@@ -233,7 +236,7 @@
     #section_profissionais {
         background-color: #E2F5FA;
         position: relative;
-        width: 100%;
+        width: 83vw;
         margin-top: 0;
         padding: 20px 0;
         border: none;
@@ -279,7 +282,7 @@
     #secao_contato {
         flex-direction: column;
         background-color: white;
-        width: 100%;
+        width: 90%;
         margin-top: 10%;
     }
     #title_contato {
@@ -373,7 +376,7 @@
 }
 
 /* Smartphones (425px e menores) */
-@media (max-width: 425px) {
+@media (max-width: 375px) {
     /* CABEÇALHO */
     #cabeçalho img {
         width: 30%; /* Logo maior para telas menores */
