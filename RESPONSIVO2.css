@@ -6,10 +6,10 @@
         flex-direction: column;
         justify-content: space-between;
         width: 30px;
-        height: 22px;
+        height: 30px;
         cursor: pointer;
         position: absolute;
-        top: 40%;
+        /* top: 30%; */
         left: 20px;
         z-index: 1001;
     }
@@ -47,13 +47,17 @@
         position: relative;
         /* height: 15%; */
         margin-top: 30px;
-        height: auto;
+        height: 80px;
         padding: 10px 0;
     }
     /* Modificar a logo para versão mobile */
     #cabeçalho img {
-        content: url("Imagens/logo_mobile.png");        
-        width: 30%;
+        content: url("Imagens/logo_mobile_cabecalho.png");        
+        width: 45%;
+        max-width: 210px;
+        min-width: 200px;
+        padding-right: 40px;
+        /* width: 100px; */
         height: auto;
         margin: 0 auto;
         display: block;
@@ -89,17 +93,17 @@
         width: 75%;
         height: auto;
         bottom: 20%;
-        right: 5%;
+        right: 10%;
     }
     #wave {
         display: none;
     }
     #textoBRANCA {
-        font-size: 24px;
-        width: 90%;
+        font-size: 20px;
+        width: 55%;
         top: 5%;
-        left: 5%;
-        text-align: center;
+        /* left: 5%; */
+        /* text-align: center; */
     }
     #bottonBRANCA {
         top: 80%;
@@ -146,26 +150,31 @@
     #logo_semdata {
         position: relative;
         width: 20%;
+        max-width: 150px;
+        min-width: 120px;
         height: auto;
         margin: 15px auto;
     }
+
     #textQUEM_RESPON {
         position: relative;
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
         font-family: "Open Sans";
         font-weight: 400;
-        font-size: 1.1em;
+        /* font-size: 3vw; */
+        font-size: 0.9em;
         line-height: 160%;
         letter-spacing: 2%;
     }
     #GRIFADO {
         position: relative;
-        width: 70%;
+        width: 95%;
         margin: 20px auto 0;
         font-family: "Open Sans";
         font-weight: 700;
-        font-size: 1.3em;
+        font-size: 15px;
+        /* font-size: 3.2vw; */
         line-height: 160%;
         letter-spacing: 2%;
     }
@@ -375,32 +384,47 @@
     }
 }
 
+#logo_mobile_cabecalho{
+    display: none;
+}
+
 /* Smartphones (425px e menores) */
 @media (max-width: 375px) {
     /* CABEÇALHO */
-    #cabeçalho img {
-        width: 30%; /* Logo maior para telas menores */
+    #cabeçalho{
+        height:80px;
+    }
+
+    #cabeçalho img{
+        width: 150px;
+    }
+
+
+    #logo_mobile_cabecalho{
+        width: 100px;
+        height: 44px;
     }
     
     /* BANNER 1 */
     #BANNER1 {
-        height: 60vw; /* Maior altura relativa */
-        min-height: 250px;
+        height: 40vw; /* Maior altura relativa */
+        min-height: 200px;
     }
     
     #Dogs {
         width: 90%;
-        bottom: 10%;
+        min-width: 300px;
+        padding-left: 50px;
+        /* bottom: 10%; */
     }
     
     #textoBRANCA {
-        font-size: 20px; /* Fonte ligeiramente menor */
+        font-size: clamp(15px,10vw,20px); /* Fonte ligeiramente menor */
         line-height: 1.3;
     }
     
     #bottonBRANCA {
-        width: 80%; /* Botão maior */
-        left: 10%;
+        width: 60%; /* Botão maior */
     }
     
     /* QUEM SOMOS */
