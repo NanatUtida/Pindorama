@@ -47,7 +47,7 @@
     top: 8%;
 
     font-weight: 700;
-    font-size: 1.8vw;
+    font-size: clamp(20px,1.8vw, 40px);
     /* font-size: 28px; */
     color: #063643;
 

@@ -1,5 +1,6 @@
 /* QUEM SOMOS */
 #QUEM_SOMOS {
+    /* display: block; */
     position: relative;
     background-color: #89C5D5;
     background-image: url(Imagens/fundo-animais-icons\ 2.png);
@@ -10,38 +11,54 @@
 #QUEM_SOMOS_RESPON {
     display: none;
 }
+
+.quem-somos-container{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    max-width: 1920px;
+}
+
 /* LOGO DA QUEM SOMOS */
 #logo2 {
-    position: absolute;
-    left: 20%;
+    /* position: absolute; */
+    /* left: 20vw; */
+    /* left: 20%; */
+    width: auto;
+    height: 270px;
+    /* height: clamp(200px, 25vw, 250px); */
+    /* remova 'left' se não for usar position */
 }
 /* TITULO DA QUEM SOMOS */
 #titleQUEM {
-    position: absolute;
-
-    left: 45%;
-    top: 10%;
-
+    height: 0px;
+    padding-top: 30px;
+    display: block;
     font-family: "Poppins";
     font-weight: 700;
     font-size: 1.5em;
+    margin: 0 auto; /* centraliza horizontalmente */
+    text-align: center;
 }
 /* TEXTO DA QUEM SOMOS */
 #textQUEM {
-    margin-top: 20px;
-    position: absolute;
+    
+    margin-top: 80px;
+    width: clamp(500px, 31%, 600px);
 
-    left: 45%;
-    top: 25%;
-
-    width: 31%;
-
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 17.7px;
+    /* font-size: clamp(1px, 1.9vw, 17.7px); */
     line-height: 160%;
     letter-spacing: 2%;
+
+    margin: 0; /* zera margens automáticas que empurram */
+    padding: 0 20px; /* espaço interno se quiser dar respiro */
 }
+
 /* NOSSOS SERVICOS PARTE 1 */
 #servico1 {
     position: relative;

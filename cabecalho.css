@@ -15,9 +15,10 @@
     align-items: center;
     z-index: 1000;
 }
+
 /* DIV COM BOTÕES E LOGO NO CABEÇALHO */
 #meio {
-    width: 60%;
+    width: clamp(1000px,60%,1200px);
     display: flex;
     align-items: center;
     justify-content: space-between;

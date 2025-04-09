@@ -1,7 +1,8 @@
 /* BANNER 2 E CARROSSEL */
 #BANNER2 {
     position: relative;
-    width: 60%;
+    width: 60vw;
+    /* width: 60%; */
     height: auto;
 }
 /* Contêiner do carrossel */
