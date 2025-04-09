@@ -1,7 +1,9 @@
 /* BANNER 2 E CARROSSEL */
 #BANNER2 {
     position: relative;
-    width: 60vw;
+    /* width: 580px; */
+    width: clamp(580px,60vw,1100px);
+    /* height: 2vw; */
     /* width: 60%; */
     height: auto;
 }
