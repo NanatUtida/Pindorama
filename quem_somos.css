@@ -33,7 +33,7 @@
 }
 /* TITULO DA QUEM SOMOS */
 #titleQUEM {
-    height: 0px;
+    height: 50px;
     padding-top: 30px;
     display: block;
     font-family: "Poppins";
@@ -71,8 +71,9 @@
 }
 /* IMAGEM DE GATO DE NOSSOS SERVICOS PARTE 1 */
 #gatinho {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 20px;
+    padding: 0 0 0 20px;
 
     left: 20%;
     top: 25%;
@@ -82,23 +83,26 @@
 }
 /* TITULO DE NOSSOS SERVICOS PARTE 1 */
 #titleSERVICOS {
-    position: absolute;
-    left: 20%;
-    top: 10%;
-
-    font-family: "Inter";
+    height: 80px;
+    padding-top: 30px;
+    display: block;
+    font-family: "Poppins";
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.4em;
+    padding-left: 25%;
+    /* text-align: center; */
 }
 /* TEXTO DE NOSSOS SERVICOS PARTE 1 */
 #textSERVICO1 {
-    position: absolute;
+    /* position: absolute; */
 
     left: 45%;
     top: 25%;
 
-    width: 28%;
-
+    width: clamp(500px,30%,600px);
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    /* width: 28%; */
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 1.1em;
@@ -118,22 +122,20 @@
 }
 /* IMAGEM DE CACHORRO DE NOSSOS SERVICOS PARTE 2 */
 #golden {
-    position: absolute;
+    /* position: absolute; */
 
     left: 55%;
     top: 15%;
-
+    padding:20px 20px 0 0; /* espaço interno nas laterais */
+    box-sizing: border-box; /* garante que padding conte dentro do width */
     width: auto;
     height: 70%;
 }
 /* TEXTO DE NOSSOS SERVICOS PARTE 2 */
 #textSERVICO2 {
-    position: absolute;
-    
-    left: 20%;
-    top: 30%;
-
-    width: 28%;
+    width: clamp(400px, 60%, 600px);
+    padding: 20px 0 0 40px; /* espaço interno nas laterais */
+    box-sizing: border-box; /* garante que padding conte dentro do width */
 
     font-family: "Open Sans";
     font-weight: 400;
@@ -141,6 +143,7 @@
     line-height: 160%;
     letter-spacing: 2%;
 }
+
 #servico_RESPON {
     display: none;
 }

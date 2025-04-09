@@ -32,7 +32,7 @@
 #rodape_institucional,
 #rodape_contatos {
     flex: 1; /* Distribui o espaço proporcionalmente */
-    min-width: 200px; /* Evita que os blocos fiquem muito estreitos */
+    min-width: 180px; /* Evita que os blocos fiquem muito estreitos */
     text-align: center; /* Centraliza o texto dentro das seções */
 }
 
