@@ -1,5 +1,5 @@
 /* Tablet And Smartphone (768px e abaixo) */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     /* Menu Hamburger - Escondido em desktop */
     .menu-hamburger {
         display: flex;
@@ -376,7 +376,7 @@
 }
 
 /* Smartphones (425px e menores) */
-@media (max-width: 425px) {
+@media (max-width: 375px) {
     /* CABEÇALHO */
     #cabeçalho img {
         width: 30%; /* Logo maior para telas menores */
