@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pindorama Pets</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="banner1.css">
+    <link rel="stylesheet" href="banner2.css">
+    <link rel="stylesheet" href="quem_somos.css">
+    <link rel="stylesheet" href="profissionais.css">
+    <link rel="stylesheet" href="avaliacoes.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="rodape.css">
+    <!-- <link rel="stylesheet" href="RESPONSIVO.css"> -->
+    <link rel="stylesheet" href="RESPONSIVO2.css">
+    <!-- <link rel="stylesheet" href="CAROUSEL.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header id="cabeçalho">
+        <div id="meio">
+            <img id="logo_cabecalho" src="Imagens/Logo-horizontal.png" alt="Logo Pindorama Pets">
+            <nav class="buttons">
+                <a href="#BANNER1">Início</a>
+                <a href="#servico1">Serviços</a>
+                <a href="#QUEM_SOMOS">Sobre Nós</a>
+                <a href="#footer">Contato</a>
+                <!-- ADICIONAR -->
+            </nav>
+            <!-- Menu hamburger (inicialmente escondido) -->
+            <div class="menu-hamburger">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PRIMEIRO BANNER -->
+        <section id="BANNER1">
+            <img src="Imagens/dogs.png" alt="Dogs" id="Dogs">
+            <img src="Imagens/Wave.png" alt="Wave" id="wave">
+            <p id="textoBRANCA"> Cuidando do Seu Pet com <br> Profissionalismo e Carinho</p>
+            <nav id="bottonBRANCA">
+                <a href="#cabeçalho">Entre em contato</a>
+            </nav>
+        </section>
+
+       <!-- SEGUNDO BANNER -->
+        <section id="BANNER2">
+
+            <div class="carousel_container">
+
+                <div class="carousel">
+   
+                    <!-- CAMPANHA 1 -->
+                    <section class="CAMPANHA1">
+                        <section id="VACINACAO">
+                            <img src="Imagens/gato.png" alt="Gato" id="gato">
+                            <img src="Imagens/PATAS.png" alt="Patas" id="PATAS">
+                            <h2 id="titleVACINACAO">Campanha de vacinação</h2>
+                            <h3 id="textVACINACAO">Nos dias 19 a 28 de novembro</h3>
+                            <nav id="bottonVACINACAO">
+                                <a href="#cabeçalho">Saiba mais</a>
+                            </nav>
+                        </section>
+                    </section>
+                    
+                    <!-- CAMPANHA 2 -->
+                    <section class="CAMPANHA1">
+                        <section id="ADOCAO">
+                            <img src="Imagens/goldenfilhote.png" alt="Golden_Filhote" id="goldenfilhote">
+                            <img src="Imagens/LADOGATO.png" alt="Gato" id="gatodelado"> 
+                            <h2 id="titleADOCAO">Campanha de adoção</h2>
+                            <h3 id="textADOCAO">Dê um lar cheio de amor a quem só quer te fazer feliz! Adote um amigo de quatro patas e 
+                                transforme sua vida e a dele.
+                            </h3>
+                            <nav id="bottonADOCAO">
+                                <a href="#cabeçalho">Saiba mais</a>
+                            </nav>
+                        </section>
+                    </section>                    
+            
+                    <!-- CAMPANHA 3 -->
+                    <section class="CAMPANHA1">
+                        <section id="BANHO">
+                            <img src="Imagens/gatotoalha.png" alt="Gato" id="gatodetoalha">
+                        <img src="Imagens/guardachuva.png" alt="Guarda_Chuva" id="guardachuva">
+                        <h2 id="titleBANHO">Banho e tosa: cuidado e saúde para seu pet</h2>
+                        <h3 id="textBANHO">Nossa clínica dispõe do serviço de higiene para seu pet
+                            permanecer limpo, cheiroso e longe de parasitas.
+                        </h3>
+                        <nav id="bottonBANHO">
+                            <a href="#cabeçalho">Saiba mais</a>
+                        </nav>
+                        </section>
+                    </section>                    
+                
+                </div>
+
+                <!-- Botões do carrossel -->
+                <button id="prevBtn">&#10094;</button>
+                <button id="nextBtn">&#10095;</button>
+
+            </div>
+
+             <!-- Círculos de Navegação -->
+            <div class="carousel-nav">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+
+      </section>
+
+        <!-- SOBRE NÓS -->
+        <section id="QUEM_SOMOS">
+
+            <h1 id="titleQUEM">Quem somos?</h1>
+            <!-- VERSÃO DESKTOP -->
+            <div class="quem-somos-container">
+                
+
+                <img src="Imagens/logo vertical.png" alt="Logo Vertical" id="logo2">
+
+                
+
+                <h2 id="textQUEM">
+                    Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet,
+                    com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.
+                    Cuidamos do seu animalzinho como se fosse nosso!
+                </h2>
+            </div>
+            
+
+            <!-- VERSÃO MOBILE -->
+            <div id="QUEM_SOMOS_RESPON">
+                <h1 id="titleQUEM_RESPON">Quem somos?</h1>
+
+                <img src="Imagens/logo_semdata.png" alt="Logo Versão Mobile" id="logo_semdata">
+
+                <h2 id="textQUEM_RESPON">
+                    Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet,
+                    com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.
+                </h2>
+
+                <p id="GRIFADO">Cuidamos do seu animalzinho como se fosse nosso!</p>
+            </div>
+
+        </section>
+
+        
+        <!-- SERVIÇOS -->
+        <section id="servico1">
+            <h1 id="titleSERVICOS">Nossos serviços</h1>
+
+            <div class="quem-somos-container">
+                <img id="gatinho" src="Imagens/gatinho.png" alt="Médica e Gato" >
+                
+                <h2 id="textSERVICO1">Na nossa clínica veterinária, cada consulta é realizada com 
+                    dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. 
+                    Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes.
+                </h2>
+            </div>
+        </section>
+
+        <section id="servico2">
+            <div class="quem-somos-container">
+                <h2 id="textSERVICO2">Nós cuidamos do seu pet com o carinho e respeito que ele
+                    merece. Nossa equipe dedica atenção a cada detalhe,
+                    proporcionando um ambiente acolhedor e seguro para que seu
+                    animalzinho se sinta em casa.
+                </h2>
+                <img src="Imagens/golden.png" alt="Médica e Dog" id="golden">
+            </div>
+        </section>  
+
+        <section id="servico_RESPON">
+
+            <p id="title_servico_RESPON">Nossos serviços visam o cuidado do seu pet</p>
+            <h1 id="text_servico_RESPON">Na nossa clínica veterinária, cada cosulta é realizada com dedicação e 
+                atenção aos detalhes, garantindo o melhor cuidado para seu pet.
+            </h1>
+            <nav id="botton_serv_RESPON">
+                <a href="#footer">Agende uma consulta</a>
+            </nav>
+            <img src="Imagens/gato.png" alt="Gato" id="gato_RESPON">
+
+        </section>
+        
+        <!-- NOSSOS PROFISSIONAIS -->
+        <section id="section_profissionais">
+            <p id="titulo_profissionais">Nossos profissionais</p>
+            <div id="nossos_profissionais">
+                <div class="div_medicos">
+                    <img src="Imagens/medico1.png" alt="medico Carlos">
+                    <p class="nome_medico">Carlos De Souza</p>
+                    <p class="especialidade_medico">Cirurgia veterinária</p>
+                </div>
+
+                <div class="div_medicos">
+                    <img src="Imagens/medico2.png" alt="medico João">
+                    <p class="nome_medico">João Paulo</p>
+                    <p class="especialidade_medico">Dermatologia veterinária</p>
+                </div>
+
+                <div class="div_medicos">
+                    <img src="Imagens/medico3.png" alt="medico José">
+                    <p class="nome_medico">José da Silva</p>
+                    <p class="especialidade_medico">Patologia</p>
+                </div>
+
+                <div class="div_medicos">
+                    <img src="Imagens/medico4.png" alt="medico fulano">
+                    <p class="nome_medico">fulano</p>
+                    <p class="especialidade_medico">Anestesiologia</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Avaliações -->
+        <section id="section_avaliacoes">
+            <h1 id="texto_avaliacoes">Avaliações (34)</h1>
+
+            <div class="carrossel">
+
+                <div class="imagem ativa">
+                        <div class="caixa"> 
+
+                            <!-- CAVALO 1 -->
+                            <div class="cliente">
+                                <img class="foto" src="Imagens/ENGRAVATADO.png" alt="CarlosAlberto">
+                                <div class="avaliacao">
+                                    <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                    <h2 class="nome">Carlos Alberto</h2>
+                                    <p class="texto">Atendimento excepcional! A equipe foi muito cuidadosa e atenciosa com meu pet.</p>
+                                </div>
+                            </div>
+                            <img class="separador" src="Imagens/separador.png" alt="">
+                            <div class="cliente">
+                                <img class="foto" src="Imagens/MENINONEY.png" alt="Neymar Jr">
+                                <div class="avaliacao">
+                                    <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                    <h2 class="nome">Neymar Jr</h2>
+                                    <p class="texto">Não poderia estar mais feliz com o serviço desta clínica. Profissionais qualificados e atenciosos.</p>
+                                </div>
+                            </div>
+                            <img class="separador" src="Imagens/separador.png" alt="">
+                            <div class="cliente">
+                                <img class="foto" src="Imagens/MULHER.png" alt="Josseana Silva">
+                                <div class="avaliacao">
+                                    <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                    <h2 class="nome">Josseana da Silva</h2>
+                                    <p class="texto">Excelente clínica! Desde o primeiro contato, fui atendido com profissionalismo e gentileza.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            
+                <div class="imagem">
+                
+                    <div class="caixa">
+
+                        <!-- CAVALO 2 -->
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/ENGRAVATADO.png" alt="JoaoHenrique">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                <h2 class="nome">João Henrique</h2>
+                                <p class="texto">Atendimento de primeira, cuidam muito bem dos animais e sempre explicam tudo com clareza.</p>
+                            </div>
+                        </div>
+                        <img class="separador" src="Imagens/separador.png" alt="">
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/MENINONEY.png" alt="Adamilton Jr">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                <h2 class="nome">Adamilton Jr</h2>
+                                <p class="texto">A clínica é muito bem equipada, e os profissionais são incríveis, mas o tempo de espera poderia ser menor.</p>
+                            </div>
+                        </div>
+                        <img class="separador" src="Imagens/separador.png" alt="">
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/MULHER.png" alt="Luciana da Silva">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                <h2 class="nome">Luciana da Silva</h2>
+                                <p class="texto">Profissionais capacitados e atenciosos, meu gato recebeu o melhor cuidado. Recomendo muito!</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            
+                <div class="imagem">
+
+                    <div class="caixa"> 
+
+                        <!-- CAVALO 3 -->
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/ENGRAVATADO.png" alt="Matheus Brito">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="FIVESTAR">
+                                <h2 class="nome">Matheus Brito</h2>
+                                <p class="texto">A equipe é super dedicada e o ambiente é acolhedor, perfeito para quem se importa com o bem-estar do pet.</p>
+                            </div>
+                        </div>
+                        <img class="separador" src="Imagens/separador.png" alt="">
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/MENINONEY.png" alt="Luiz Jr">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="nota2">
+                                <h2 class="nome">Luiz Jr</h2>
+                                <p class="texto">Atendimento excelente e muito atencioso! Meu pet recebeu todo o cuidado necessário e ficou ótimo!</p>
+                            </div>
+                        </div>
+                        <img class="separador" src="Imagens/separador.png" alt="">
+                        <div class="cliente">
+                            <img class="foto" src="Imagens/MULHER.png" alt="Clariane Silva">
+                            <div class="avaliacao">
+                                <img class="FIVESTAR" src="Imagens/ESTRELAS.png" alt="nota3">
+                                <h2 class="nome">Clariane da Silva</h2>
+                                <p class="texto">Fiquei satisfeita com o atendimento, mas achei os preços um pouco altos para alguns serviços.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            
+                <!-- Controles abaixo -->
+                <div class="controle-inferior">
+                  <button class="seta" id="botao-anterior"><img id="botao_prev-avaliacao" src="Imagens/Property 1=prev-button.png" alt=""></button>
+                  <span id="numero-pagina">1</span>
+                  <button class="seta" id="botao-proximo"><img id="botao_next-avaliacao" src="Imagens/Property 1=next-button.png" alt=""></button>
+                </div>
+              </div>
+ 
+            </div>
+        
+         </section>
+
+         <!-- ENTRE EM CONTATO -->
+          <section id="secao_contato">
+            <p id="title_contato">Entre em contato</p>
+            <div id="formulario_contato">
+                <div id="div_contato">
+                    <h2 id="texto_localizacao">Localização</h2>
+                    
+                    <div id="subtexto_localizacao">
+                        <p>Rua - Fulana de tal, 9999</p>
+                        <p>CEP 99999-999</p>
+                        <p>Pindorama/SP</p>
+                    </div>
+
+                    <div>
+                        <img id="imagem_mapa" src="Imagens/mapa.png" alt="mapa">
+                    </div>
+
+                    <div id="numberwhats">
+                        <img src="Imagens/icon-whatsapp.png" alt="">
+                        <p>(99)-99999999</p>
+                    </div>
+                    <div id="instagram">
+                        <img src="Imagens/icon-instagram.png" alt="">
+                        <p>@PindoramaClinica</p>
+                    </div>
+                    <div id="facebook">
+                        <img src="Imagens/icon-face.png" alt="">
+                        <p>PindoramaClinica</p>
+                    </div>
+                    
+                </div>
+
+                <div id="div_formulario">
+                    <form action="" method="POST">
+
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome">
+                        </div>
+
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="email">E-mail</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        
+                        <div class="campo_formulario">
+                            <label class="texto_formulario" for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem"></textarea>
+                        </div>
+
+                        <div id="botao_enviar">
+                            <p id="texto_enviar">Enviar</p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+          </section>
+
+            <div id="logos_RESPON">
+                <img src="Imagens/icon-whatsapp.png" alt="">
+                <img src="Imagens/icon-instagram.png" alt="">
+                <img src="Imagens/icon-face.png" alt="">
+          </div>
+
+    </main>
+    
+    <footer id="footer">
+        <div id="div_rodape">
+            <img id="logo_rodape" src="Imagens/logo vertical.png" alt="logo2">
+            <div id="rodape_servicos">
+                <h1 class="titulo_info">Nossos serviços</h1>
+                <p class="info_rodape">Sobre nós</p>
+                <p class="info_rodape">CONSULTA VETERINÁRIA</p>
+                <p class="info_rodape">Nossos serviços</p>
+            </div>
+            <div id="rodape_institucional">
+                <h1 class="titulo_info">Institucional</h1>
+                <p class="info_rodape">Programa de adoção</p>
+                <p class="info_rodape">Termos de compromisso</p>
+                <p class="info_rodape">Unect JR</p>
+            </div>
+            <div id="rodape_contatos">
+                <h1 class="titulo_info">Nossos contatos</h1>
+                <img src="Imagens/Component 3.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <footer id="rodape_final">    
+        <p id="texto_direitos">UNECT JR - TODOS OS DIREITOS RESEVADOS</p>
+    </footer>
+
+    <script src="PINDORAMA.js"></script>
+    <script src="PINDORAMA2.js"></script>
+    <script src="RESPONSIVIDADE.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,507 @@
+/* Tablet And Smartphone (768px e abaixo) */
+@media (max-width: 768px) {
+    /* Menu Hamburger - Escondido em desktop */
+    .menu-hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 22px;
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        z-index: 1001;
+    }
+    .linha {
+        width: 100%;
+        height: 4px;
+        background-color: #063643;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    /* Overlay para quando o menu está aberto */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+    .menu-aberto .overlay {
+        display: block;
+    }
+    /* CABEÇALHO */
+    #meio {
+        flex-direction: column;
+        width: 90%;
+        /* Logo centralizado em mobile */
+        justify-content: center;
+        position: relative;
+    }
+    #cabeçalho {
+        position: relative;
+        height: 15%;
+        margin-top: 30px;
+        height: auto;
+        padding: 10px 0;
+    }
+    /* Modificar a logo para versão mobile */
+    #cabeçalho img {
+        content: url("Imagens/logo_mobile.png");        
+        width: 15%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }    
+    /* Esconder botões normais */
+    .buttons {
+        display: none;
+    } 
+    main {
+        margin-top: -1%;
+    }
+    /* BANNER 1 */
+    #BANNER1 {
+        height: 40vw;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        min-height: 200px; /* Garante altura mínima em telas pequenas */
+    }
+    /* Adicionamos a elipse apenas na versão tablet e menores */
+    #BANNER1::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 120%;
+        background: linear-gradient(104.5deg, rgba(195, 236, 248, 0.2) 4.89%, rgba(15, 99, 122, 0.2) 97.81%);
+        border-radius: 50%;
+        z-index: -1;
+        transform: rotate(-20deg);
+    }
+    #Dogs {
+        width: 75%;
+        height: auto;
+        bottom: 20%;
+        right: 5%;
+    }
+    #wave {
+        display: none;
+    }
+    #textoBRANCA {
+        font-size: 24px;
+        width: 90%;
+        top: 5%;
+        left: 5%;
+        text-align: center;
+    }
+    #bottonBRANCA {
+        top: 80%;
+        width: 60%;
+        font-size: 18px;
+        left: 20%;
+        height: auto;
+        padding: 10px;
+    }
+    /* CAMPANHAS */
+    #BANNER2 {
+        display: none;
+    }
+    /* QUEM SOMOS */
+    #QUEM_SOMOS {
+        height: 350px;
+        text-align: center;
+    } 
+    #logo2 {
+        display: none;
+    }
+    #titleQUEM {
+        display: none;
+    }
+    #textQUEM {
+        display: none;
+    }
+    #QUEM_SOMOS_RESPON {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    #titleQUEM_RESPON {
+        position: relative;
+        width: 100%;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 1.5em;
+        margin: 0 auto;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #logo_semdata {
+        position: relative;
+        width: 20%;
+        height: auto;
+        margin: 15px auto;
+    }
+    #textQUEM_RESPON {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 160%;
+        letter-spacing: 2%;
+    }
+    #GRIFADO {
+        position: relative;
+        width: 70%;
+        margin: 20px auto 0;
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 1.3em;
+        line-height: 160%;
+        letter-spacing: 2%;
+    }
+    /* SERVIÇOS */
+    #servico1, #servico2 {
+        display: none;
+    }
+    #servico_RESPON {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 400px;
+        padding: 20px 0;
+        background-color: #63B3C9;
+        background-image: url(Imagens/fundo-animais-icons\ 3.png);
+    }
+    #title_servico_RESPON {
+        position: relative;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #063643;
+    }
+    #text_servico_RESPON {
+        position: relative;
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 140%;
+        letter-spacing: 2%;
+    }
+    #botton_serv_RESPON {
+        position: relative;
+        width: 40%;
+        margin: 20px auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border-radius: 4px;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 120%;
+    }
+    #botton_serv_RESPON a {
+        text-decoration: none;
+        color: #063643;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #gato_RESPON {
+        position: relative;
+        width: 20%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    /* PROFISSIONAIS */
+    #section_profissionais {
+        background-color: #E2F5FA;
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        padding: 20px 0;
+        border: none;
+        box-shadow: none; 
+    }
+    /* TITULO DE NOSSOS PROFISSIONAIS */
+    #titulo_profissionais {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 2em;
+    }
+    #nossos_profissionais {
+        background-color: white; 
+        margin-top: 10%;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .div_medicos {
+        position: relative;
+        margin: 20px auto;
+        width: 40%;
+    }
+    /* AVALIAÇÕES */
+    #texto_avaliacoes {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+    }
+    .controle-inferior {
+        right: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* FORMULÁRIO */
+    #secao_contato {
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #title_contato {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 20px auto;
+    }
+    #formulario_contato {
+        margin-top: 5%;
+        flex-direction: column;
+        height: auto;
+        border: none;
+        box-shadow: none; 
+        background: transparent;
+    }
+    #div_contato {
+        display: none;
+    }
+    #div_formulario {
+        width: 100%;
+        height: auto;
+        min-height: 700px;
+        padding: 20px;
+        border: none;
+        box-shadow: none; 
+    }
+    .campo_formulario {
+        height: auto;
+        position: relative;
+        top: 10px;
+        left: 7.5%;
+        margin-bottom: 20px;
+    }
+    #imagem_mapa {
+        display: none;
+    }
+    #botao_enviar {
+        position: relative;
+        width: 30%;
+        height: 10%;
+        margin: 20px auto;
+        left: auto;
+    }
+    #texto_enviar {
+        position: relative;
+        left: auto;
+        text-align: center;
+        width: 100%;
+    }
+    #logos_RESPON {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    #logos_RESPON img {
+        width: 100px;
+        height: auto;
+    }
+    /* RODAPÉ */
+    #footer {
+        position: relative;
+        height: 180px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    #logo_rodape, #rodape_contatos {
+        display: none;
+    }
+    #rodape_institucional {
+        position: relative;
+        width: 35%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+        left: auto;
+    } 
+    #rodape_servicos {
+        position: relative;
+        width: 35%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5%;
+        text-align: left;
+        left: auto;
+    }
+}
+
+/* Smartphones (425px e menores) */
+@media (max-width: 425px) {
+    /* CABEÇALHO */
+    #cabeçalho img {
+        width: 30%; /* Logo maior para telas menores */
+    }
+    
+    /* BANNER 1 */
+    #BANNER1 {
+        height: 60vw; /* Maior altura relativa */
+        min-height: 250px;
+    }
+    
+    #Dogs {
+        width: 90%;
+        bottom: 10%;
+    }
+    
+    #textoBRANCA {
+        font-size: 20px; /* Fonte ligeiramente menor */
+        line-height: 1.3;
+    }
+    
+    #bottonBRANCA {
+        width: 80%; /* Botão maior */
+        left: 10%;
+    }
+    
+    /* QUEM SOMOS */
+    #QUEM_SOMOS {
+        height: 400px; /* Mais espaço */
+    }
+    
+    #logo_semdata {
+        width: 35%; /* Logo maior */
+    }
+    
+    #textQUEM_RESPON {
+        width: 85%; /* Texto mais largo */
+    }
+    
+    #GRIFADO {
+        width: 85%;
+    }
+    
+    /* SERVIÇOS */
+    #servico_RESPON {
+        height: 450px; /* Mais espaço */
+    }
+    
+    #title_servico_RESPON {
+        width: 90%; /* Título mais largo */
+    }
+    
+    #text_servico_RESPON {
+        width: 90%;
+    }
+    
+    #botton_serv_RESPON {
+        width: 60%; /* Botão maior */
+    }
+    
+    #gato_RESPON {
+        width: 30%; /* Imagem maior */
+        margin-top: 10px;
+    }
+    
+    /* PROFISSIONAIS */
+    .div_medicos {
+        width: 80%; /* Um médico por linha */
+    }
+    
+    /* AVALIAÇÕES */
+    .cliente {
+        flex-direction: column; /* Empilhar elementos */
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .foto {
+        width: 60px; /* Foto maior */
+        margin-bottom: 10px;
+    }
+    
+    .avaliacao {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .FIVESTAR {
+        width: 30%; /* Estrelas proporcionais */
+        margin: 0 auto 5px;
+    }
+    
+    .texto {
+        width: 95%; /* Texto quase completo */
+        margin: 10px auto;
+    }
+    
+    /* FORMULÁRIO */
+    #title_contato {
+        font-size: 2em; /* Fonte menor */
+    }
+    
+    .campo_formulario {
+        left: 5%; /* Menos margem */
+    }
+    
+    #botao_enviar {
+        width: 60%; /* Botão maior */
+    }
+    
+    #logos_RESPON img {
+        width: 60px; /* Ícones menores */
+    }
+    
+    /* RODAPÉ */
+    #footer {
+        height: auto; /* Altura automática */
+        padding-bottom: 30px;
+    }
+    
+    #rodape_institucional, #rodape_servicos {
+        width: 80%; /* Mais largos */
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+    }
+    
+    .titulo_info {
+        margin-top: 15px;
+    }
+}

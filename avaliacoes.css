@@ -1,0 +1,137 @@
+/* FUNDO DAS AVALIACOES */
+#section_avaliacoes {
+    position: relative;
+    width: 60%;
+    background-color: #E2F5FA;
+}
+#texto_avaliacoes {
+    margin-bottom: 3%;
+    margin-left: 9%;
+}
+/* FUNDO DO CARROSSEL */
+.carrossel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+/* PRIMEIRO CAVALO DO CARROSSEL */
+.imagem.ativa {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    padding: 2%;
+    width: 100%;
+    margin-left: 10%;
+}
+.cliente {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+.foto {
+    /* width: 4vw; */
+    width: 80px;
+    /* width: 8%; */
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    width: 90%;
+    padding-top: 1%;
+    align-self: center;
+}
+.FIVESTAR {
+    width: 100px;
+    /* width: 5.6vw; */
+    /* width: 12%; */
+    height: auto;
+}
+.nome {
+    margin-top: 1%;
+    font-size: 120%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 100%;
+}
+.texto {
+    margin-top: 1%;
+    line-height: 150%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 110%;
+    width: 83%;
+    margin-bottom: 1%;
+}
+.separador {
+    width: 80%;
+    height: auto;
+    margin: 1% 0;
+}
+.imagem {
+    display: none;
+    position: absolute;
+}
+.imagem img {
+    object-fit: cover;
+}
+.controle-inferior {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-top: 1px solid #ddd;
+}
+.seta {
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #E2F5FA;
+}
+.seta.oculta {
+    display: none;
+}
+#numero-pagina {
+    font-size: 16px;
+    font-weight: bold;
+}
+#botao_prev-avaliacao{
+    width: 40px;
+    height: 30px;
+}
+#botao_prev-avaliacao:hover{
+    background-image: url('Imagens/Property\ 1=prev-hover.png');
+}
+#botao_prev-avaliacao:active{
+    background-image: url('Imagens/Property\ 1=prev-click.png');
+}
+#botao_next-avaliacao{
+    width: 40px;
+    height: 30px;
+}
+#botao_next-avaliacao:hover{
+    background-image: url('Imagens/Property\ 1=next-hover.png');
+}
+#botao_next-avaliacao:active{
+    background-image: url('Imagens/Property\ 1=next-click.png');
+}
