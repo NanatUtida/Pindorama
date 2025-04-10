@@ -99,11 +99,22 @@
         display: none;
     }
     #textoBRANCA {
-        font-size: 20px;
+        display: none;
+    }
+    #text_respon {
+        display: flex;   
+
         width: 55%;
-        top: 5%;
-        /* left: 5%; */
-        /* text-align: center; */
+        margin-right: auto;
+        margin-bottom: auto;
+
+        text-align: left;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #063643;
     }
     #bottonBRANCA {
         top: 80%;
@@ -257,7 +268,7 @@
         width: 100%;
         text-align: center;
         margin: 20px auto;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #nossos_profissionais {
         background-color: white; 
@@ -274,11 +285,17 @@
         width: 40%;
     }
     /* AVALIAÇÕES */
+    #section_avaliacoes {
+        position: relative;
+        width: 100%;
+        background-color: #E2F5FA;
+        margin-right: auto;
+    }
     #texto_avaliacoes {
         margin-left: 0;
         width: 100%;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .controle-inferior {
         right: 0;
@@ -287,22 +304,28 @@
         display: flex;
         justify-content: center;
     }
+    .foto {
+        width: 20%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        align-self: center;
+    }
     /* FORMULÁRIO */
     #secao_contato {
         flex-direction: column;
         background-color: white;
-        width: 90%;
+        width: 100%;
         margin-top: 10%;
     }
     #title_contato {
         position: relative;
         width: 100%;
         text-align: center;
-        font-size: 2.5em;
-        margin: 20px auto;
+        font-size: 1.7em;
+        margin-top: 5%;
     }
     #formulario_contato {
-        margin-top: 5%;
         flex-direction: column;
         height: auto;
         border: none;
@@ -313,19 +336,13 @@
         display: none;
     }
     #div_formulario {
-        width: 100%;
+        width: 95%;
         height: auto;
-        min-height: 700px;
-        padding: 20px;
         border: none;
         box-shadow: none; 
     }
     .campo_formulario {
         height: auto;
-        position: relative;
-        top: 10px;
-        left: 7.5%;
-        margin-bottom: 20px;
     }
     #imagem_mapa {
         display: none;
@@ -472,30 +489,17 @@
     }
     
     /* AVALIAÇÕES */
-    .cliente {
-        flex-direction: column; /* Empilhar elementos */
-        align-items: center;
-        margin-bottom: 15px;
-    }
-    
     .foto {
-        width: 60px; /* Foto maior */
-        margin-bottom: 10px;
+        width: 15%;
     }
-    
     .avaliacao {
         width: 100%;
-        text-align: center;
     }
-    
     .FIVESTAR {
-        width: 30%; /* Estrelas proporcionais */
-        margin: 0 auto 5px;
+        width: 30%;
     }
-    
     .texto {
-        width: 95%; /* Texto quase completo */
-        margin: 10px auto;
+        width: 95%;
     }
     
     /* FORMULÁRIO */

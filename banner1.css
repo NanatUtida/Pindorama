@@ -56,6 +56,10 @@
     text-align: left;
     line-height: 1.4em;
 }
+/* TEXTO DO RESPONSIVO */
+#text_respon {
+    display: none;
+}
 /* BOTAO DO BANNER 1 */
 #bottonBRANCA {
     position: absolute;
