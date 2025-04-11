@@ -3,6 +3,8 @@ const imagens = document.querySelectorAll(".imagem");
 const botaoAnterior = document.getElementById("botao-anterior");
 const botaoProximo = document.getElementById("botao-proximo");
 const numeroPagina = document.getElementById("numero-pagina");
+const divazul = document.getElementById("div_azul");
+const divbranca = document.getElementById("div_branca");
 
 let indiceAtual = 0;
 
@@ -16,8 +18,13 @@ function atualizarCarrossel() {
   numeroPagina.textContent = `${indiceAtual + 1}`;
 
   // Controla visibilidade dos botões
+
+  divbranca.classList.toggle("oculta", indiceAtual != 0);
   botaoAnterior.classList.toggle("oculta", indiceAtual === 0);
   botaoProximo.classList.toggle("oculta", indiceAtual === imagens.length - 1);
+  divazul.classList.toggle("oculta", indiceAtual != imagens.length - 1);
+
+
 }
 
 // Eventos dos botões

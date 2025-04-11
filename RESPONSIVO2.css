@@ -310,6 +310,51 @@
         border-radius: 50%;
         align-self: center;
     }
+    #botao-proximo{
+        width: 40px;
+        height: 40px;
+        background-image: url("Imagens/arrow-Carrosel.png");
+        background-repeat: no-repeat;
+        margin-left: 23px;
+    }
+    #botao_next-avaliacao {
+        display: none;
+    }
+    #botao_prev-avaliacao:hover{
+        background-color: #E2F5FA;        
+    }
+    #botao_prev-avaliacao:active{
+        background-color: #E2F5FA;
+    }
+    #botao_next-avaliacao:hover{
+        background-color: #E2F5FA;
+    }
+    #botao_next-avaliacao:active{
+        background-color: #E2F5FA;
+    }
+    #botao-anterior {
+        width: 40px;
+        height: 40px;
+        background-image: url("Imagens/arrow-Carrosel\ \(1\).png");
+        background-repeat: no-repeat;
+        margin-right: 23px;
+    }
+    #botao_prev-avaliacao {
+        display: none;
+    }
+    #div_branca {
+        width: 40px;
+        height: 30px;
+        margin-right: 23px;
+    }
+    #div_azul {
+        width: 40px;
+        height: 30px;
+        margin-left: 23px;
+    }
+
+
+
     /* FORMULÁRIO */
     #secao_contato {
         flex-direction: column;

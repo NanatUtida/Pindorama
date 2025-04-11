@@ -109,6 +109,16 @@
 .seta.oculta {
     display: none;
 }
+#div_branca {
+    width: 40px;
+    height: 30px;
+    margin-right: 23px;
+}
+#div_azul {
+    width: 40px;
+    height: 30px;
+    margin-left: 23px;
+}
 #numero-pagina {
     font-size: 16px;
     font-weight: bold;
