@@ -506,7 +506,9 @@
     #title_contato {
         font-size: 2em; /* Fonte menor */
     }
-    
+    #nome{
+        height: 100%;
+    }
     .campo_formulario {
         left: 5%; /* Menos margem */
     }
