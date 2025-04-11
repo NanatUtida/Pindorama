@@ -149,6 +149,7 @@
         flex-direction: column;
     }
     #titleQUEM_RESPON {
+        color:#063643;
         position: relative;
         width: 100%;
         font-family: "Poppins";
@@ -168,6 +169,7 @@
     }
 
     #textQUEM_RESPON {
+        color:#063643;
         position: relative;
         width: 90%;
         margin: 0 auto;
@@ -179,6 +181,7 @@
         letter-spacing: 2%;
     }
     #GRIFADO {
+        color:#063643;
         position: relative;
         width: 95%;
         margin: 20px auto 0;
@@ -214,6 +217,7 @@
         color: #063643;
     }
     #text_servico_RESPON {
+        color:#063643;
         position: relative;
         width: 80%;
         margin: 15px auto;
@@ -249,7 +253,7 @@
         color: #063643;
         display: block;
         width: 100%;
-        font-size: clamp(12px,68%,30px);
+        font-size: clamp(16px,68%,35px);
         padding: 15px 0;
         text-align: center;
     }
@@ -372,7 +376,7 @@
     #secao_contato {
         flex-direction: column;
         background-color: white;
-        width: 100%;
+        width: 96%;
         margin-top: 10%;
     }
     #title_contato {
