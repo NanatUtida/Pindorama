@@ -381,25 +381,28 @@
         display: none;
     }
     #div_rodape {
-        display: inline-block;        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
     }
     #rodape_institucional {
-        width: 35%;
         display: inline-block;
+        width: 45%;
+        min-width: 120px;
         vertical-align: top;
-        margin-left: 5%;
+        margin: 0 2%;
         text-align: left;
-        left: auto;
-        font-size: 3vw;
+        font-size: 3vw; 
     } 
     #rodape_servicos {
-        width: 35%;
         display: inline-block;
+        width: 45%;
+        min-width: 120px;
         vertical-align: top;
-        margin-left: 5%;
+        margin: 0 2%;
         text-align: left;
-        left: auto;
-        font-size: 3vw;
+        font-size: 3vw; 
     }
 }
 
@@ -530,7 +533,7 @@
     #rodape_institucional, #rodape_servicos {
         width: 80%; /* Mais largos */
         margin: 10px auto;
-        text-align: center;
+        text-align: left;
         display: block;
     }
     
