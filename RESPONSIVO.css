@@ -1,6 +1,31 @@
 /* Tablet And Smartphone (768px e abaixo) */
 @media (max-width: 760px) {
     /* Menu Hamburger - Escondido em desktop */
+    img, video, iframe, object, embed {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Container principal para garantir que não haja rolagem horizontal */
+      main {
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+      /* Garantir que elementos com largura fixa não causem overflow */
+      #BANNER1, #QUEM_SOMOS, #section_avaliacoes, #formulario_contato, #section_profissionais {
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      
+      /* Corrigir possíveis margens negativas */
+      * {
+        margin-left: 0;
+        margin-right: 0;
+      }
     .menu-hamburger {
         display: flex;
         flex-direction: column;
