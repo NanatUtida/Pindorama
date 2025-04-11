@@ -1,5 +1,5 @@
 /* Tablet And Smartphone (768px e abaixo) */
-@media (max-width: 760px) {
+@media (max-width: 770px) {
     /* Menu Hamburger - Escondido em desktop */
     .menu-hamburger {
         display: flex;
@@ -166,7 +166,6 @@
         height: auto;
         margin: 15px auto;
     }
-
     #textQUEM_RESPON {
         position: relative;
         width: 90%;
@@ -368,36 +367,39 @@
         margin-bottom: 40px;
     }
     #logos_RESPON img {
-        width: 100px;
+        width: 90%;
         height: auto;
     }
     /* RODAPÉ */
     #footer {
         position: relative;
-        height: 180px;
-        padding: 20px 0;
+        width: 100%;
+        height: auto;
         text-align: center;
     }
     #logo_rodape, #rodape_contatos {
         display: none;
     }
+    #div_rodape {
+        display: inline-block;        
+    }
     #rodape_institucional {
-        position: relative;
         width: 35%;
         display: inline-block;
         vertical-align: top;
         margin-left: 5%;
         text-align: left;
         left: auto;
+        font-size: 3vw;
     } 
     #rodape_servicos {
-        position: relative;
         width: 35%;
         display: inline-block;
         vertical-align: top;
         margin-left: 5%;
         text-align: left;
         left: auto;
+        font-size: 3vw;
     }
 }
 
@@ -518,15 +520,13 @@
     }
     
     #logos_RESPON img {
-        width: 60px; /* Ícones menores */
+        width: 90%; /* Ícones menores */
     }
-    
     /* RODAPÉ */
     #footer {
         height: auto; /* Altura automática */
         padding-bottom: 30px;
     }
-    
     #rodape_institucional, #rodape_servicos {
         width: 80%; /* Mais largos */
         margin: 10px auto;
